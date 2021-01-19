@@ -109,12 +109,12 @@ def locations(app, query):
 
 @app.on_message(filters.command("start"))
 def start(app, message):
-    text = """⚡️ <b><u>What is Rotogram?</u></b>
-Rotomgram is a bot which acts as a helper for trainers on Telegram. \
-You can check information of Pokemon, Showdown usage and more as quickly as possible, without ever leaving Telegram\n
+    text = """⚡️ <b><u>What is Inline Rotom-2.0?</u></b>
+<b><i>[Inline Rotom-2.0](https://telegram.me/Inline_RotomBot)</i> is a bot which acts as a helper for trainers on Telegram. \
+You can check information of Pokemon, without adding bot to any group, as quickly as possible, without ever leaving Telegram</b>\n\n
 🛠 <b><u>Usage</u></b>
-Just write Pokemon name after @rotogrambot (e.g.: @rotogrambot Rotom)\n
-@alessiocelentano | <a href="t.me/rotogram">Follow us</a> | <a href="github.com/alessiocelentano/rotogram">GitHub</a>"""
+<b>Just write Pokemon name after @Inline_RotomBot <i>(e.g.: @Inline_RotomBot Rotom)</i></b>\n\n
+@Warning_MadBoy_is_Here | <a href="github.com/madboyop/Inline-Rotom-2.0">GitHub</a>"""
     app.send_message(
         chat_id=message.from_user.id,
         text=text
