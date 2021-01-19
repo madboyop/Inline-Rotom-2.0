@@ -10,6 +10,7 @@ from moveset import moveset_text
 from locations import locations_text
 from markup import data_markup, moveset_markup, locations_markup
 
+from Config import Config
 
 app = Client("Debug")
 pk = pokepy.V2Client()
